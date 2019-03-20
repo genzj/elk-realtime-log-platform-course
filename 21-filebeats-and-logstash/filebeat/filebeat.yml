@@ -1,0 +1,11 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - "f:/apache_access.log"
+  fields:
+    apache: true
+
+output.logstash:
+  hosts: ["localhost:5044"]
+

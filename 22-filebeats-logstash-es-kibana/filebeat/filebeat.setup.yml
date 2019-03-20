@@ -1,0 +1,7 @@
+setup.kibana.host: "127.0.0.1:5601"
+
+setup.dashboards.enabled: true
+
+output.elasticsearch:
+  hosts: ["localhost:9200"]
+
